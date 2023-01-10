@@ -1,0 +1,26 @@
+body {
+  background-image: url(images/lefke.jpg);
+   background-size: 100% auto;
+}
+
+.baslik {
+height: 75px;
+position: relative;
+margin-top: 1em ;
+background-color: green;
+text-align: center;
+padding-top: 0.8em;
+}
+
+.kutu {
+margin-top: 10px;
+margin-left: 10px;
+padding-top: 2%;
+padding-inline: 2%;
+padding-bottom: 2%;
+float:left;
+height: auto;
+border: 10px solid green;
+background-color: whitesmoke
+
+}
