@@ -29,11 +29,11 @@
     <option value="tarımsal">Tarımsal Gelişme Alanı</option>
   </select>
 <p style="margin-top: 1em;">Parsel büyüklüğü ne kadardır?</p>
-<input type="number" id="x" min="1" name="parselalan" placeholder="Metrekare">
+<input type="number" id="x" min="1" name="parselalan" placeholder="Metrekare" required>
 <br>
 <br>
 <input type="submit"  value="Temizle">
-<input type="button" value="Hesapla" onclick="AlanHesap()" >
+<input type="button" value="Hesapla" onclick="order66()" >
 </form>
 
 
@@ -41,11 +41,23 @@
   
  </div>
 <div class="kutu">
-<form action="">
+<form>
   <h5 >İnşaat hakkı</h5>
-  
   <h6 id="xx"></h6>
+  
 </form>
+</div>
+
+<div class="kutu">
+  <form>
+    <h5>Parselasyon</h5>
+    <h6 id="xx2"></h6>
+  </form>
+  </div>
+
+<div class="footer">
+  <!-- LOGO eklemeyi unutma -->
+<h5>ENVER KASABOGLU / 2023</h5>
 </div>
   </body>
   <script src="hesap.js"></script>

@@ -7,9 +7,10 @@ body {
 height: 75px;
 position: relative;
 margin-top: 1em ;
+padding-top: 0.5em;
 background-color: green;
 text-align: center;
-padding-top: 0.8em;
+
 }
 
 .kutu {
@@ -20,7 +21,15 @@ padding-inline: 2%;
 padding-bottom: 2%;
 float:left;
 height: auto;
-border: 10px solid green;
+border: 2px solid forestgreen;
 background-color: whitesmoke
+}
 
+.footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 0.5rem;
+  background-color: forestgreen;
 }
